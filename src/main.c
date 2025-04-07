@@ -25,11 +25,9 @@ bool char_cmp(char a, char b) {
 int main() {
     // Crear lista de enteros y agregar elementos
     List_int* nums = list_int_create();
-    list_int_append(nums, 1);
-    list_int_append(nums, 2);
-    list_int_append(nums, 3);
-    list_int_append(nums, 4);
-    list_int_append(nums, 5);
+    list_int_append(nums, 10);
+    list_int_append(nums, 20);
+
 
     printf("Lista de numeros enteros: ");
     list_int_print(nums, print_int);
@@ -39,11 +37,11 @@ int main() {
 
     // Crear lista de caracteres y agregar elementos
     List_char *chars = list_char_create();
-    LIST_APPEND(chars, 'l');
-    LIST_APPEND(chars, 'i');
-    LIST_APPEND(chars, 's');
-    LIST_APPEND(chars, 't');
     LIST_APPEND(chars, 'a');
+    LIST_APPEND(chars, 'b');
+    LIST_APPEND(chars, 'c');
+    LIST_APPEND(chars, 'd');
+    LIST_APPEND(chars, 'e');
 
     printf("Lista de caracteres: ");
     list_char_print(chars, print_char);
