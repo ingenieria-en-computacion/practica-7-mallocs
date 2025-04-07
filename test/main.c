@@ -1,7 +1,7 @@
 #include <check.h>
 #include <stdlib.h>
 #define LINKED_LIST_IMPLEMENTATION
-#include "linkedlist.h"
+#include "linked_list.h"
 
 // Función auxiliar para imprimir enteros (usada en pruebas)
 void print_int(int value) {
